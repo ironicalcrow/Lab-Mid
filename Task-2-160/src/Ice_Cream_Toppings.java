@@ -1,9 +1,8 @@
-public class Ice_Cream_Flavour implements getTotal {
+public class Ice_Cream_Toppings implements getTotal {
     private String name;
     private double price;
     private int quantity;
-
-    public Ice_Cream_Flavour(String name, double price, int quantity) {
+    public Ice_Cream_Toppings(String name, double price, int quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
@@ -27,9 +26,7 @@ public class Ice_Cream_Flavour implements getTotal {
         this.quantity = quantity;
     }
     @Override
-    public double initialCalc()
-    {
+    public double initialCalc(){
         return price * quantity;
     }
 }
-
