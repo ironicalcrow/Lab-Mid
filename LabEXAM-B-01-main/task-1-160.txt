@@ -1,0 +1,17 @@
+in inventorySystem.java
+-- line 10 to line 196-- the code is breaking SRP rule as it has more than one responsibility
+-- line 10, 23, 32 is using nested classes
+-- line 11 to line 19, line 24 to line 29 shows premitve obsession as there are many unnecesarry premitive types
+-- in line 45 to line 47 and line 77 to line 99there is conditional complexity as there are many unnecessary conditional statements
+-- Tight Coupling between product, order, orderItem and inventorySystem class
+in globalInventoryData.java
+-- line 9 to line 13 multiple static object
+-- line 12 to 13 unnecessary premitives
+in reportScheduler.java
+-- line 5 a static method
+in Warehouse.java
+-- line 9 has doesn't call or sets it self to set data (this.id) missing;
+
+in inventoryManagementSystem.java
+-- there is no scope of OCP as the lines are hardcoded in main
+--
