@@ -7,6 +7,10 @@ public class Eatable {
         this.price = price;
         this.quantity = quantity;
     }
+    public Eatable(String name, int quantity) {
+        this.name = name;
+        this.quantity = quantity;
+    }
     public String getName() {
         return name;
     }
